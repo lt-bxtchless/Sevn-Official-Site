@@ -1,0 +1,107 @@
+:root {
+  --one: #1972f5;
+  --two: #2b59ff;
+  --three: #6440ff;
+  --secondary-background: #ffffff;
+  --main-background: #f4f6ff;
+  --six: #00000066;
+}
+
+/* Header Section*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  padding: 0px 20px 0px 0px;
+  margin: 0px;
+}
+.nav-bar {
+  align-items: right;
+  background-color: blue;
+}
+.nav-con {
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+.nav-btn {
+  display: flex;
+  justify-content: space-around;
+  margin: 23px 23px;
+}
+.logo {
+  padding: 10px;
+  align-items: left;
+}
+.logo-img {
+  width: 4rem;
+}
+
+/* Main */
+.main {
+  background-color: #f4f6f6;
+}
+
+/* Home */
+
+@keyframes lgbtq {
+    0%{ background-color: violet;}
+    50%{ background-color: white}
+    100%{ background-color: indigo;}
+    
+}
+
+.home {
+  background-color: violet;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
+
+/* About */
+.about {
+  background-color: indigo;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
+/* Teams */
+.teams {
+  background-color: blue;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
+/* Clients */
+.clients {
+  background-color: green;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
+/* Services */
+.services {
+  background-color: yellow;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
+/* Contacts */
+.contact {
+  background-color: red;
+  height: 30vh;
+  animation-name: lgbtq;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+  animation-direction:reverse;
+}
