@@ -44,64 +44,38 @@ header {
 
 /* Home */
 
-@keyframes lgbtq {
-    0%{ background-color: violet;}
-    50%{ background-color: white}
-    100%{ background-color: indigo;}
-    
-}
+
 
 .home {
   background-color: violet;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
 }
 
 /* About */
 .about {
   background-color: indigo;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
 }
 /* Teams */
 .teams {
   background-color: blue;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
+
 }
 /* Clients */
 .clients {
   background-color: green;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
 }
 /* Services */
 .services {
   background-color: yellow;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
+
 }
 /* Contacts */
 .contact {
   background-color: red;
   height: 30vh;
-  animation-name: lgbtq;
-  animation-duration:10s;
-  animation-fill-mode: forwards;
-  animation-direction:reverse;
+
 }
