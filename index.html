@@ -4,25 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&display=swap" rel="stylesheet">
+    <title>sevn</title>
   </head>
   <body>
     <div class="header">
       <header>
 
         <div class="logo">
-          <img class="logo-img" src="./images/sevn.logo.jpg" alt="" />
+          <h1>SEVN.</h1>
         </div>
 
         <div class="nav-bar">
-          <nav class="nav-con">
-            <a class="nav-btn">Home</a>
-            <a class="nav-btn">About</a>
-            <a class="nav-btn">Teams</a>
-            <a class="nav-btn">Clients</a>
-            <a class="nav-btn">Service</a>
-            <a class="nav-btn">Contact</a>
-          </nav>
+          <ul>
+            <li><a class="nav-btn">Home</a></li>
+            <li><a class="nav-btn">About</a></li>
+            <li><a class="nav-btn">Teams</a></li>
+            <li><a class="nav-btn">Clients</a></li>
+            <li><a class="nav-btn">Service</a></li>
+            <li><a class="nav-btn">Contact</a></li>
+          </ul>
         </div>
 
       </header>
@@ -30,10 +33,21 @@
 
     <main>
       <section class="home">
-        
+
+        <div class="home-left">
+            <span class="sevn">Sevn</span> is a collective venture
+              <span>by engineering students</span> 
+              <span>skilled in</span>
+          <span id="element"></span>
+        </div>
+
+        <div class="home-right">
+          <img src="./images/Content-management.jpg" alt="">
+        </div>
+
       </section>
       <section class="about">
-
+          
       </section>
       <section class="teams">
 
@@ -47,6 +61,32 @@
       <section class="contact">
 
       </section>
+
+
+      </script><div class="footer">
+        <footer>
+  
+        <p style="text-align: center;">	&#169; Tangent Creations</p>
+  
+        </footer>
+      </div>
     </main>
+    <!-- JavaScript-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Development",
+          "Graphic Designing",
+          "Web Designing",
+          "Video Editing",
+        ],
+        typeSpeed: 80,
+      });
+      function downloadFile()
+      {
+        window.open("Docs/ritesh_resume.pdf")
+      }
+    </script>
   </body>
 </html>

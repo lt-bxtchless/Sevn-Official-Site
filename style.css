@@ -1,41 +1,55 @@
 :root {
-  --one: #1972f5;
-  --two: #2b59ff;
-  --three: #6440ff;
-  --secondary-background: #ffffff;
-  --main-background: #f4f6ff;
+  --light-bg:rgb(228, 235, 249);
+  --gradient-bg: linear-gradient(90deg,rgb(223, 186, 244), rgb(160, 104, 206),rgb(112, 41, 212));
   --six: #00000066;
 }
+body{
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  font-family: outfit,sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
 
 /* Header Section*/
 header {
   display: flex;
-  justify-content: space-between;
-  background-color: red;
-  padding: 0px 20px 0px 0px;
-  margin: 0px;
+  justify-content:space-around;
+  background-color: rgb(228, 235, 249);
+  padding: 0px;
 }
-.nav-bar {
-  align-items: right;
-  background-color: blue;
+.logo
+{
+  font-weight: 1000;
+  font-size: 1.8rem;
 }
-.nav-con {
-  display: flex;
-  font-size: 20px;
-  justify-content: space-between;
+.nav-bar
+{
+
+  padding: 35px 0;
 }
-.nav-btn {
+ul{
   display: flex;
   justify-content: space-around;
-  margin: 23px 23px;
+  list-style-type: none;
 }
-.logo {
-  padding: 10px;
-  align-items: left;
+li
+{
+  margin: 0rem 2rem;
 }
-.logo-img {
-  width: 4rem;
+a{
+  font-size: 1.8rem;
 }
+a:hover
+{
+  background: var(--gradient-bg);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.9rem;
+}
+
 
 /* Main */
 .main {
@@ -47,35 +61,77 @@ header {
 
 
 .home {
-  background-color: violet;
-  height: 30vh;
+
+  height: 95vh;
+  padding: 10rem 0 0 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
+.home-left
+{
+
+  margin: 23px 23px;
+  padding: 10rem 2rem;
+  font-size: 3.5rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.home-right
+{
+  margin: 0px;
+  padding: 10rem 0rem;
+}
+.home-right>img
+{
+  width: 120%;
+}
+.sevn
+{
+  background: -webkit-linear-gradient(#fff,rgb(162, 162, 228));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.5rem;
+}
+#element
+{
+  background: -webkit-linear-gradient(#ffffff,rgb(162, 162, 228));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+
+
 
 /* About */
 .about {
   background-color: indigo;
-  height: 30vh;
+  height: 100vh;
 }
 /* Teams */
 .teams {
   background-color: blue;
-  height: 30vh;
+  height: 100vh;
 
 }
 /* Clients */
 .clients {
   background-color: green;
-  height: 30vh;
+  height: 100vh;
 }
 /* Services */
 .services {
   background-color: yellow;
-  height: 30vh;
+  height: 100vh;
 
 }
 /* Contacts */
 .contact {
   background-color: red;
-  height: 30vh;
+  height: 100vh;
 
 }
